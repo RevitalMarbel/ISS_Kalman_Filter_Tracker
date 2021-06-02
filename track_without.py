@@ -21,7 +21,7 @@ tracker = OPENCV_OBJECT_TRACKERS["csrt" ]()
 
 initBB = None
 
-vs = cv2.VideoCapture("ISS.mp4")
+vs = cv2.VideoCapture("drone2.mp4")
 width = int(vs.get(cv2.CAP_PROP_FRAME_WIDTH) )
 height = int(vs.get(cv2.CAP_PROP_FRAME_HEIGHT) )
 fourcc = cv2.VideoWriter_fourcc(*'MP4V')
